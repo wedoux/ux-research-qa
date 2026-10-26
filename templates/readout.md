@@ -18,6 +18,8 @@ Rules that keep the readout honest:
   not a pass.
 - Results appear only in the CK rows. Don't restate results in the Declared upstream
   table.
+- When a check fires, start its "What triggered it" cell with the check's user-facing
+  wording from `references/checks.md`, then quote the triggering text.
 
 ```markdown
 ## Declared upstream

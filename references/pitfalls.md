@@ -55,11 +55,11 @@ changes nothing — is a label.
 
 **The failure:** The synthesis treats every finding as if it's being discovered for the
 first time, ignoring what the team already knows. This causes two specific problems:
-re-presenting a validated finding as new, and missing a contradiction with prior
+re-presenting an established finding as new, and missing a contradiction with prior
 research that should have been flagged.
 
 **What it looks like:** A report that confidently "discovers" something a 2024 study
-already established, or that contradicts a previously validated finding without
+already established, or that contradicts a previously established finding without
 mentioning the conflict.
 
 **What it should look like:** Explicit acknowledgment of prior research status —
