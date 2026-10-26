@@ -42,7 +42,8 @@ not a hedge, a position.]
 **Claim matches its evidence:** [Yes or No] — [one-line reason]
 [Yes means the claim says no more, and no more surely, than its evidence allows. A
 hedged claim on thin evidence is Yes: that is correct practice, not a flaw. If CK-01,
-CK-02, CK-03, CK-04 or CK-05 fires, this is No.]
+CK-02, CK-03, CK-04 or CK-05 fires, or P-01, P-04, P-05, P-06, P-07 or P-08 is
+triggered, this is No: each of those describes a claim saying more than its evidence.]
 
 ### Is it true for these people?
 
@@ -144,6 +145,12 @@ Combine the two judgments and the checks:
 | Any | — | Any NOT RUN | **Not yet** — [missing input] wasn't declared, so [check] couldn't run. |
 
 A check that didn't run can't support "Yes". Name the missing input in the reason.
+
+Pitfalls feed the same decision:
+- P-01, P-04, P-05, P-06, P-07 and P-08 describe overclaiming. If any is triggered,
+  "Claim matches its evidence" is No, so the finding is "Not yet".
+- P-02 and P-03 are about process. "Yes" is still possible when one is triggered, but
+  the reason must say why it doesn't weaken the decision.
 
 ## Rolling up multiple findings
 
