@@ -47,11 +47,11 @@ allow (such as confidence "medium") as missing.
 | Check | Can report CLEAR only when | Otherwise, when its input is missing |
 |---|---|---|
 | CK-01 | A belief register is declared, the beliefs the claim relies on have `confidence` and `source_type` filled in (and a `source_ref` where the source is research), and neither part fires | FIRES if part (b) fires on the claim alone; NOT RUN if it doesn't, because part (a) couldn't run |
-| CK-02 | The study record declares at least one limit with a `cannot_claim`, and the claim stays inside every one | NOT RUN |
+| CK-02 | The study record declares at least one limit, every declared limit has a `cannot_claim`, and the claim stays inside every one | FIRES if the claim crosses a limit whose `cannot_claim` is filled in; otherwise NOT RUN, naming the limits with no `cannot_claim` |
 | CK-03 | Always runs: it needs only the claim | — |
 | CK-04 | The claim cites people-side evidence (no register needed), **or** the register is declared and a belief the claim rests on has `agreed_by_all = yes` | With no people-side evidence: FIRES if the register is declared and no agreed belief supports the claim; NOT RUN if there is no register, or `agreed_by_all` is blank on the beliefs the claim rests on |
 | CK-05 | Evidence was supplied, and the claim's scope and certainty stay within it | NOT RUN if no evidence was supplied at all (the provenance table marks the claim untraceable) |
-| CK-06 | The study record declares at least one question, and the claim maps to one or is labelled "unexpected finding (not asked)" | NOT RUN |
+| CK-06 | The study record declares at least one question, and the claim maps to one or is labelled "unexpected finding (not asked)" | NOT RUN — including when the claim maps to none of the written questions but a declared question has no text |
 
 A check fires on whatever part of its input it can see. CLEAR needs all of it. When
 unsure between CLEAR and NOT RUN, report NOT RUN, and name what's missing.
@@ -61,6 +61,9 @@ register; with no people-side evidence and no register, it is NOT RUN, never CLE
 
 When a check fires, the readout's "What triggered it" cell starts with the check's
 user-facing wording from the table above, then quotes the triggering text.
+
+Name declared items by the IDs the user gave them (B-01, Q-02). Limits have no IDs:
+quote the limit's `cannot_claim` instead. Never invent an ID.
 
 ---
 

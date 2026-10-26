@@ -59,7 +59,9 @@ questions it asked, and what its limits rule out).
   confidence "medium"), is missing input: name it, and let the checks that need it
   report NOT RUN.
 - **If the material says none exist** ("none declared"), that is the user's choice.
-  Proceed, and report the checks that depend on them as NOT RUN.
+  Proceed. The checks that depend on them report NOT RUN unless they can still be
+  decided without them — [references/checks.md](references/checks.md) says exactly
+  when (CK-01 part (b) can still fire; CK-04 can still clear on evidence about people).
 - **If the material doesn't mention them at all,** ask once whether they exist. If
   not, point to [templates/belief-register.md](templates/belief-register.md) and
   [templates/study-record.md](templates/study-record.md) and say the user should write
