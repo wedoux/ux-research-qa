@@ -146,6 +146,9 @@ Combine the two judgments and the checks:
 
 A check that didn't run can't support "Yes". Name the missing input in the reason.
 
+A claim labelled as a hypothesis is never "Yes": it isn't a finding yet. Say "Not
+yet", and let the reason say it's ready to be tested.
+
 Pitfalls feed the same decision:
 - P-01, P-04, P-05, P-06, P-07 and P-08 describe overclaiming. If any is triggered,
   "Claim matches its evidence" is No, so the finding is "Not yet".

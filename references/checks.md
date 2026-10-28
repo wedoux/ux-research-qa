@@ -59,6 +59,10 @@ unsure between CLEAR and NOT RUN, report NOT RUN, and name what's missing.
 CK-04's boundary: people-side evidence makes it CLEAR with or without a belief
 register; with no people-side evidence and no register, it is NOT RUN, never CLEAR.
 
+A check that can't apply to this kind of claim — CK-04 on a claim about people, CK-03
+on a claim about the product — reports CLEAR, saying why ("not a product claim"). It
+had what it needed to decide that. NOT RUN is only for missing input.
+
 "Claim matches its evidence" is No whenever CK-01 to CK-05 fires or P-01, P-04, P-05,
 P-06, P-07 or P-08 is triggered; P-02 and P-03 leave it open, but a "Yes" to act on
 must say why they don't weaken the decision.
