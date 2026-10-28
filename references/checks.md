@@ -80,7 +80,8 @@ confirmation.
 This sits alongside CK-04 as follows:
 - A belief with `agreed_by_all = yes`, presented as a **declared working assumption**
   ("Working assumption B-04, agreed by the whole team: …"), keeps CK-04 clear and does
-  not fire CK-01.
+  not fire CK-01 part (b). Part (a) still applies: agreement doesn't change where a
+  high-confidence belief came from.
 - Team agreement presented as **evidence for a claim about people** ("Visitors want
   shorter clips — the team agreed in the review") fires CK-01 part (b).
 
