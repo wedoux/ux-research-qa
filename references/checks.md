@@ -58,6 +58,8 @@ unsure between CLEAR and NOT RUN, report NOT RUN, and name what's missing.
 
 CK-04's boundary: people-side evidence makes it CLEAR with or without a belief
 register; with no people-side evidence and no register, it is NOT RUN, never CLEAR.
+No register means you can't know whether an agreed assumption exists: that is NOT
+RUN, not FIRES.
 
 A check that can't apply to this kind of claim — CK-04 on a claim about people, CK-03
 on a claim about the product — reports CLEAR, saying why ("not a product claim"). It
