@@ -46,6 +46,34 @@ evidence behind it, and it will:
 It evaluates reasoning. It does not generate new insight, plan studies, or write
 discussion guides — see [`SKILL.md`](SKILL.md) for the full workflow and scope.
 
+## New in v2: checking against what you declared up front
+
+Most synthesis errors aren't visible in the synthesis alone. A claim that "users want
+dark mode" reads fine — until you know the only source was the founder, or that the
+study never recruited the users the claim speaks for. v2 lets you declare that context
+before the review, and audits the claims against it.
+
+- **Two records you fill in yourself.** A
+  [belief register](templates/belief-register.md) (what the team believed going in,
+  how sure, and why) and a [study record](templates/study-record.md) (the decision the
+  research informs, the questions it asked, and what its limits rule out). The skill
+  offers these templates but never fills them in for you — it may ask questions that
+  help.
+- **Six checks, CK-01 to CK-06** ([`references/checks.md`](references/checks.md)):
+  confidence borrowed from who said it; claims beyond the study's declared limits;
+  findings about people treated as proven; product findings with no evidence about
+  people behind them; scope or certainty inflation; and insights that answer no
+  question the team asked.
+- **Fail closed.** A check whose input you didn't declare is reported as NOT RUN,
+  never as passed.
+- **A readout built around one decision.** Each finding gets two separate judgments —
+  how strong the evidence is, and whether the claim matches it (an honest hedge on
+  thin evidence is good practice, not a flaw) — grouped under four plain questions,
+  and ends on **Safe to act on: Yes / Not yet**, with the reason.
+
+The records are optional. Without them the skill still runs the v1 checks, and tells
+you which v2 checks it couldn't run.
+
 ## Before / after
 
 **Before (typical AI-generated synthesis):**

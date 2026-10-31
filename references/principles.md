@@ -14,6 +14,10 @@ the judgment calls a careful reviewer applies by hand).
 - Provenance is not optional
 - Falsification before commitment
 - Weak is not a failure
+- An honest hedge is correct practice
+- Agreement is not evidence
+- Declare upstream, audit downstream
+- Why these four questions
 - Trust comes from transparency, not confidence
 
 ---
@@ -39,10 +43,10 @@ them. These are different jobs, and doing both in the same pass collapses the ch
 you cannot adversarially review reasoning you just produced, because you already
 believe it.
 
-If no synthesis exists yet, producing one is a legitimate but secondary task (see
-`SKILL.md`) — the QA pass is the headline. When both are needed, do the synthesis
-first, then genuinely change hats before QA-ing it: read the synthesis as if someone
-else wrote it.
+If no synthesis exists yet, this skill doesn't write one. The same goes for the
+belief register and the study record: the people who hold the beliefs and ask the
+questions write them, because a belief someone else drafted for you is not one you
+can be held to. The skill may ask questions that help; it never fills in an answer.
 
 ## Assume an error exists
 
@@ -103,6 +107,49 @@ well-reasoned and well-evidenced is a successful piece of research — it tells 
 something is not yet worth prioritising, which is valuable. Don't treat a WEAK or
 UNCERTAIN verdict as evidence that the underlying reasoning was flawed; judge the
 reasoning that produced the classification, not how exciting the classification is.
+
+## An honest hedge is correct practice
+
+The readout makes two separate judgments about each finding: how strong the evidence
+is (STRONG / UNCERTAIN / WEAK), and whether the claim matches its evidence. A claim
+that says "2 of 7 participants, in this sample" on thin evidence is WEAK and matches
+its evidence. That is a researcher doing the job well, and the readout says so. The
+flaw worth catching is a claim that says more, or says it more surely, than its
+evidence allows — whatever its strength.
+
+"Safe to act on" combines the two. Thin evidence honestly stated is "Not yet", but
+for a different reason than an overclaim, and the reason line says which. The line is
+a product decision aid: it says whether the team has enough to act. It is not a claim
+that the quality of an interpretation can be measured.
+
+## Agreement is not evidence
+
+"The PM says", "our founder believes", "stakeholders confirmed it", "the team agreed",
+"no one objected in the review" — each is an opinion with a name attached. Not being
+rejected is not confirmation. A belief the whole team agreed to can be a legitimate
+working assumption, if it's declared as one; it becomes a problem when it's presented
+as what participants showed.
+
+## Declare upstream, audit downstream
+
+What the team writes down before the study — what they believed, what they asked,
+what their study gave up — becomes the checklist the synthesis is audited against.
+Every declared field feeds at least one check. When a field wasn't declared, the check
+that needs it reports NOT RUN: a check with nothing to check is never reported as
+passed.
+
+## Why these four questions
+
+The readout groups its checks under four plain questions: Is it true for these people?
+Where does it apply? Could someone retrace it? Is it theirs or ours? They follow the
+four criteria for judging the trustworthiness of qualitative work set out by Guba
+(1981): credibility, transferability, dependability and confirmability. Qualitative
+findings can't be judged the way measurements are, so the questions ask whether an
+interpretation is defensible — grounded, placed in context, and argued — not whether
+it's right. The readout uses the plain questions only.
+
+Guba, E. G. (1981). Criteria for assessing the trustworthiness of naturalistic
+inquiries. *Educational Communication and Technology Journal*, 29(2), 75–91.
 
 ## Trust comes from transparency, not confidence
 
